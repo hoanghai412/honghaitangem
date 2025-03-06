@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư quan trọng 💌</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="thangdien.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="container" class="black-bg">
+        <div id="letter" onclick="openLetter()">💌</div>
+        <p id="message">Bạn có tin nhắn quan trọng!</p>
+    </div>
+
+    <div id="content" class="hidden">
+        <div id="heart">❤️</div>
+        <p id="text" class="hidden"></p>
+
+        <!-- Các hình ảnh theo từng câu -->
+        <img id="image-0" class="message-image hidden" src="honghai.jpg">
+        <img id="image-1" class="message-image hidden" src="camon.jpg">
+        <img id="image-2" class="message-image hidden" src="8-3.jpg">
+        <img id="image-3" class="message-image hidden" src="download.jpg">
+        <img id="image-4" class="message-image hidden" src="dongy.jpg">
+        <img id="image-5" class="message-image hidden" src="ngy.jpg">
+        <!-- Phần hiển thị khi người dùng đồng ý -->
+<div id="outro" class="hidden">
+    <h1>🎉 Yayyy! Cảm ơn cậu đã đồng ý 💖 🎉</h1>
+    <img id="outroImage" class="message-image" src="anhdong.gif">
+    <p>Tớ vui lắm luôn á 😍</p>
+</div>
+
+
+        <!-- Nút lựa chọn -->
+        <div id="buttons" class="hidden">
+            <button id="yes">Có 💕</button>
+            <button id="no">Không 😢</button>
+        </div>
+    </div>
+</body>
+</html>
