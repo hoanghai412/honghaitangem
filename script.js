@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "🥰 Đầu tiên, cảm ơn cậu rất nhiều vì đã đọc lá thư này. 💌",
         "💖 Tớ chúc cậu 8/3 luôn luôn vui vẻ và hạnh phúc nhaaa! 🌸",
         "🙈 Và tớ có một điều muốn nói, nhưng không biết bắt đầu từ đâu... 😳",
-        "🤔 Cậu đồng ý...?",
-        "💘 Cậu đồng ý làm người yêu tớ nhaaaa 💕💕"
+        "🤔 Cậu...?",
+        "💘 Cậu cho tớ làm quen với cậu nhaaaa 💕💕"
     ];
     let index = 0;
 
